@@ -3,10 +3,10 @@ package bot;
 import java.util.Scanner;
 
 public class SimpleBot {
-    final static Scanner scanner = new Scanner(System.in); // Do not change this line
+    final static Scanner scanner = new Scanner(System.in); 
 
     public static void main(String[] args) {
-        greet("Aid", "2023"); // change it as you need
+        greet("Aid", "2023"); 
         remindName();
         guessAge();
         count();
@@ -31,7 +31,7 @@ public class SimpleBot {
         int rem3 = scanner.nextInt();
         int rem5 = scanner.nextInt();
         int rem7 = scanner.nextInt();
-        int age = (rem3 * 70 + rem5 * 21 + rem7 * 15) % 105;
+        int age = (rem3 * 70 + rem5 * 21 + rem7 * 15) % 105; // calculates age
         System.out.println("Your age is " + age + "; that's a good time to start programming!");
     }
 
@@ -39,7 +39,7 @@ public class SimpleBot {
         System.out.println("Now I will prove to you that I can count to any number you want.");
         int num = scanner.nextInt();
         for (int i = 0; i <= num; i++) {
-            System.out.printf("%d!\n", i);
+            System.out.printf("%d!\n", i); // Outputs the value of i followed by the string "!\n". %d specifies that value is an integer
         }
     }
 
@@ -64,7 +64,7 @@ public class SimpleBot {
     }
 
     static void end() {
-            System.out.println("Congratulations, have a nice day!"); // Do not change this text
+            System.out.println("Congratulations, have a nice day!"); 
         }
     }
 
