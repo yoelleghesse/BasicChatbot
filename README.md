@@ -8,10 +8,15 @@ The SimpleBot program uses a scanner object to read input from the user. It star
 The program is organized into five static methods:
 
 greet: This method greets the user and introduces the chatbot by name and birth year.
+
 remindName: This method prompts the user to input their name and prints a personalized greeting.
+
 guessAge: This method asks the user for remainders of dividing their age by 3, 5, and 7, then calculates their age based on those remainders.
+
 count: This method prompts the user to input a number, then uses a for loop to count up to that number, printing each number along the way.
+
 test: This method quizzes the user on programming knowledge by asking a multiple choice question and checking their answer.
+
 The main method calls each of these methods in sequence to run the chatbot program.
 
 ## Usage
